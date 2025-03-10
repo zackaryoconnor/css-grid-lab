@@ -1,0 +1,142 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, sans-serif;
+  /* overflow: hidden; */
+}
+
+section {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-color: #f0f0f0;
+  margin-bottom: 32px;
+}
+
+.footer1-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.brand h2 {
+  font-size: 1.5rem;
+  margin: 0 0 20px 0;
+}
+
+.brand p {
+  margin: 5px 0;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+section h3 {
+  font-size: 1.1rem;
+  margin: 0 0 20px 0;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section li {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.footer2-content {
+  width: 100%;
+  display: grid;
+  grid-template-row: repeat(6, 1fr);
+  gap: 40px;
+  justify-content: st;
+  align-items: center;
+  margin: 100px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.links h2 {
+  margin: 0 46px;
+}
+
+.divider {
+  background-color: black;
+  height: 2px;
+  margin-bottom: 36px;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons img {
+  background-color: black;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  margin: 0 16px;
+}
+
+.copyright {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.footer3-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-content: center;
+  align-items: start;
+  margin: 64px;
+}
+
+.section3-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  width: 45vw;
+}
+
+.section3-content .h2 {
+  margin: 0;
+  padding: 0;
+}
+
+
+.section3-divider {
+  background-color: black;
+  width: 2px;
+  height: 100%;
+}
+
+.section3-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 45vw;
+  gap: 32px;
+}
+
+.section3-links h4 {
+  margin-bottom: 32px;
+}
+
+.section3-copyright {
+  display: flex;
+  text-align: left;
+}
